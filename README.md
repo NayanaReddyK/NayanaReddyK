@@ -143,8 +143,8 @@ Computer Vision • ML System Design
     <img src="https://img.shields.io/badge/LinkedIn-Nayana%20Reddy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/NayanaReddyK">
-    <img src="https://img.shields.io/badge/GitHub-NayanaReddyK-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="mailto:nayanareddykarrii@gmail.com">
+    <img src="https://img.shields.io/badge/Email-nayanareddykarrii%40gmail.com-701A3D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=451126"/>
   </a>
 </p>
 
@@ -153,6 +153,6 @@ Computer Vision • ML System Design
 </p>
 
 <p align="center">
-<i> Always learning, always building.</i>
+<i> Learn.Apply.Repeat.</i>
 </p>
 
