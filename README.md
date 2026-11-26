@@ -1,83 +1,158 @@
-<div align="center">
+<h1 align="center">
+  Hello 👋, I'm Nayana Reddy
+</h1>
 
-<img src="assets/nayana-hero.svg" alt="Nayana Reddy | AI/ML Engineer | Software Development" width="100%" />
+<h3 align="center">AI/ML Engineer • Agentic AI • Software Development</h3>
 
-</div>
 
-<br/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=B.Tech+Computing+%26+Data+Science+Student;AI%2FML+Engineer+%7C+Software+Development;Building+Agentic+AI+%26+RAG+Systems;LangGraph+%7C+RAG+%7C+Multi-Agent+Systems;FastAPI+%7C+React+%7C+PostgreSQL" />
+</p>
 
-I'm a B.Tech student in Computing and Data Science at Sai University (graduating May 2027), interested in building AI systems that work reliably in the real world.
+<p align="center">
+  <a href="https://www.linkedin.com/in/nayana-reddy-k/">
+    <img src="https://img.shields.io/badge/LinkedIn-Nayana%20Reddy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/NayanaReddyK">
+    <img src="https://img.shields.io/badge/GitHub-NayanaReddyK-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=NayanaReddyK&style=for-the-badge&color=blueviolet"/>
+</p>
 
-In summer 2026 at Altrosyn, I worked on a multi-agent hiring pipeline in LangGraph, from resume parsing to interview scheduling. Alongside coursework, I build projects in RAG and agentic AI, and I'm also curious about computer vision and system design.
+---
 
-I'm looking for AI/ML internships and roles where I can keep learning by building.
+## 👩‍💻 About Me
 
-- **Education:** B.Tech, Computing and Data Science, Sai University, Chennai · 2023 to 2027 · CGPA 8.33/10
-- **Exploring:** computer vision and system design
-- **Ask me about:** LangGraph, multi-agent systems, RAG, FastAPI
+- 🎓 **B.Tech (Final Year) - Computing and Data Science, Sai University** · 2023 to 2027 
+- 🤖 AI/ML engineer focused on **Agentic AI, RAG Systems, LLM Applications and Full-Stack Development**
+- 🚀 AI/ML Intern at **Altrosyn** (Jun to Jul 2026), where I architected a **nine-agent autonomous hiring pipeline in LangGraph**
+- 🔬 Co-authored an AI red-teaming study on bioweapons with Sai University's Pugwash chapter, shared with OpenAI ([Publication](https://drive.google.com/file/d/1erC4NRkOYhAnNznwgme07qhZWXAKiSlB/view) · [Feature](https://www.the-trebuchet.org/sai-university))
+- 🧠 Interested in multi-agent systems, grounded retrieval and ML system design
+- 💡 Passionate about building AI systems that work reliably in the real world
 
-<img src="assets/divider.svg" alt="" width="100%" />
+### 🌱 Currently Exploring
 
-## Highlights
+Computer Vision • ML System Design
 
-- **AI/ML Intern, Altrosyn** (June to July 2026). Architected a nine-agent autonomous hiring pipeline in LangGraph with a central supervisor and typed shared state. Built a resume-parsing agent (~90% field-level F1) and a semantic screening agent (~80% Precision@5), plus fairness safeguards that reached ~0.70 weighted κ agreement between AI and human evaluators.
-- **Research, 2024.** Co-authored *A Red Team AI Simulation: Adversarial Scenario on Bioweapons* with Sai University's Pugwash chapter (mentor: Tyler Peppel, NYU), probing whether GPT-3.5/4.0 could be coerced into bioweapon-related assistance. Findings were shared with OpenAI. [Publication](https://drive.google.com/file/d/1erC4NRkOYhAnNznwgme07qhZWXAKiSlB/view) · [Feature](https://www.the-trebuchet.org/sai-university)
+---
 
-<img src="assets/divider.svg" alt="" width="100%" />
+## 🚀 Featured Projects
 
-## Selected projects
+- **[Agentic Legal Intelligence Platform](https://github.com/NayanaReddyK/Agentic-legal-intellligence-platform)** - contract review with grounded citations; 93.1% clause-extraction precision and 85.3% risk-detection F1 (vs 66.5% for an LLM-only baseline)
+- **[DevFlow](https://github.com/NayanaReddyK/DevFlow)** ([Live](https://devflow-f.onrender.com)) - dependency-aware project tracker with real-time Kanban and critical-path analysis; 145 automated tests
+- **[Autonomous AI Shopping Agent](https://github.com/NayanaReddyK/AI_Shoppping_Agent)** - MCP-based price-intelligence engine for Indian e-commerce; ~95% price-extraction accuracy
+- **[Clinical NER](https://github.com/NayanaReddyK/clinical-ner)** - BiLSTM-CRF in PyTorch that extracts diseases, drugs and dosages from clinical notes (course project)
 
-**[Agentic Legal Intelligence Platform](https://github.com/NayanaReddyK/Agentic-legal-intellligence-platform)**
-Contract review with grounded citations. Parses PDF, DOCX and TXT contracts, extracts clauses, and flags risks with an LLM, then checks each finding against retrieved statutes using hybrid BM25 and BGE retrieval. Lawyers can accept, edit or reject findings, and every decision is audit-logged.
-Results: 93.1% clause-extraction precision and 85.3% risk-detection F1 (66.5% for an LLM-only baseline); citation support up from 70.8% to 86.4% over an LLM + RAG baseline.
-`Python` `FastAPI` `React` `ChromaDB` `Sentence Transformers (BGE)` `Rank-BM25` `SQLite` `PyMuPDF` `OCR`
+---
 
-**[DevFlow](https://github.com/NayanaReddyK/DevFlow)** · [Live demo](https://devflow-f.onrender.com)
-A dependency-aware project tracker with workspaces, role-based access and a real-time Kanban board. A rule-based module flags bottleneck tasks, stale blockers and overdue risk, with evidence for every finding. Includes cycle prevention, downstream-impact counting and critical-path computation.
-Results: 145 automated tests; ~90 ms p95 latency on the insights endpoint with 500 tasks and 300 dependencies.
-`Django` `DRF` `Django Channels` `PostgreSQL` `React` `TypeScript` `Docker`
+## 🛠️ Tech Stack
 
-**[Autonomous AI Shopping Agent](https://github.com/NayanaReddyK/AI_Shoppping_Agent)**
-A price-intelligence engine for Indian e-commerce. An MCP-based agent scrapes product pages with layered fallbacks, and Gemini with Google Search Grounding compares live prices across platforms with median-based outlier filtering.
-Results: ~95% price-extraction accuracy; ~88% faster repeat lookups (3.6 s to 0.42 s) with a 1-hour URL cache.
-`Python` `FastAPI` `MongoDB Atlas` `Groq LLaMA-3` `Gemini` `MCP`
+### 💻 Programming Languages
 
-**[Clinical NER](https://github.com/NayanaReddyK/clinical-ner)**
-A course project: a BiLSTM-CRF pipeline in PyTorch that extracts diseases, drugs and dosages from clinical notes, with a Gradio demo. A proof of concept trained on a small synthetic dataset.
-`Python` `PyTorch` `NLTK` `spaCy` `Gradio`
+<p>
+<img src="https://skillicons.dev/icons?i=python,c,cpp" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+---
 
-## Skills
+### 🤖 AI & Machine Learning
 
-**Languages** `Python` `SQL` `C` `C++`
+<p>
 
-**Agentic AI and LLMs** `LangChain` `LangGraph` `Multi-agent orchestration` `Hybrid RAG` `MCP` `Pydantic` `Gemini (Search Grounding)` `Sentence Transformers (BGE)` `Rank-BM25`
+<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
 
-**ML and NLP** `PyTorch` `NLTK` `spaCy` `scikit-learn` `Gradio`
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
 
-**Full-stack and databases** `React` `FastAPI` `REST APIs` `Django` `DRF` `JWT` `PostgreSQL` `Supabase (pgvector)` `MongoDB Atlas` `ChromaDB` `SQLite` `Pytest`
+<img src="https://img.shields.io/badge/Multi_Agent_Systems-4F46E5?style=for-the-badge"/>
 
-**Cloud and MLOps** `AWS (EC2, S3)` `Docker` `Kubernetes` `DVC` `Git` `GitHub`
+<img src="https://img.shields.io/badge/Hybrid_RAG-2563EB?style=for-the-badge"/>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="https://img.shields.io/badge/MCP-9333EA?style=for-the-badge"/>
 
-## Contribution activity
+<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white"/>
 
-<img src="https://ghchart.rshah.org/701A3D/NayanaReddyK" alt="Nayana Reddy's GitHub contribution graph" width="100%" />
+<img src="https://img.shields.io/badge/Sentence_Transformers_(BGE)-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 
-<sub>Live contribution graph from my public GitHub activity, rendered by <a href="https://ghchart.rshah.org">ghchart.rshah.org</a>.</sub>
+<img src="https://img.shields.io/badge/Rank--BM25-0EA5E9?style=for-the-badge"/>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white"/>
 
-## Find me
+<img src="https://img.shields.io/badge/ChromaDB-FF9800?style=for-the-badge"/>
 
-[LinkedIn](https://www.linkedin.com/in/nayana-reddy-k/)
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
 
-<br/>
+<img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white"/>
 
-<div align="center">
+<img src="https://img.shields.io/badge/NLTK-3B82F6?style=for-the-badge"/>
 
-<img src="assets/footer.svg" alt="Thanks for stopping by." width="100%" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 
-</div>
+</p>
+
+---
+
+### 🌐 Web & Backend Development
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=react,ts,fastapi,django,postgres,mongodb,sqlite"/>
+
+<img src="https://img.shields.io/badge/Supabase_(pgvector)-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/JWT_Authentication-000000?style=for-the-badge&logo=jsonwebtokens"/>
+
+<img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
+
+</p>
+
+---
+
+### ☁️ Cloud & MLOps
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github"/>
+
+<img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws"/>
+
+<img src="https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazonaws"/>
+
+<img src="https://img.shields.io/badge/DVC-13B5EA?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render"/>
+
+</p>
+
+<br>
+
+<h2 align="center">🔥 GitHub Streak</h2>
+
+<p align="center">
+
+<img width="70%" src="https://streak-stats.demolab.com?user=NayanaReddyK&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+<h2 align="center">🤝 Let's Connect</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/nayana-reddy-k/">
+    <img src="https://img.shields.io/badge/LinkedIn-Nayana%20Reddy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/NayanaReddyK">
+    <img src="https://img.shields.io/badge/GitHub-NayanaReddyK-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <i>💬 Open to AI/ML, Agentic AI and Software Engineering internship opportunities.</i>
+</p>
+
+<p align="center">
+<i> Always learning, always building.</i>
+</p>
+
