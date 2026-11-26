@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="nrh-title nrh-desc">
+  <title id="nrh-title">Nayana Reddy | AI/ML Engineer | Software Development</title>
+  <desc id="nrh-desc">Burgundy banner with a fine technical grid, restrained orbital geometry, a flowing signal path and a glowing underline beneath the name.</desc>
+
+  <defs>
+    <style>
+      .nrh-name{font-family:Georgia,'Times New Roman',serif;font-size:96px;font-weight:700;fill:#F8F0F3;letter-spacing:1px}
+      .nrh-role{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:34px;fill:#E5B5C7;letter-spacing:1.5px}
+      .nrh-eyebrow{font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:19px;fill:#C77B9B;letter-spacing:6px}
+      /* Static fallback: when the viewer asks for reduced motion, every animated layer is hidden
+         and the fully composed still image below remains. */
+      @media (prefers-reduced-motion: reduce){ .nrh-motion{display:none} }
+    </style>
+
+    <clipPath id="nrh-clip"><rect width="1200" height="380" rx="16"/></clipPath>
+
+    <linearGradient id="nrh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="0.6" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+
+    <radialGradient id="nrh-halo">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nrh-sheen" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="360" y2="120">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C77B9B" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-360 0" to="1200 0" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="nrh-line" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="664" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset="0.55" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+    </linearGradient>
+
+    <linearGradient id="nrh-glint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8F0F3" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F8F0F3" stop-opacity="1"/>
+      <stop offset="1" stop-color="#F8F0F3" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="nrh-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#E5B5C7" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="nrh-fade" cx="0.62" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="nrh-gridmask"><rect width="1200" height="380" fill="url(#nrh-fade)"/></mask>
+
+    <!-- Glow filters are sized relative to each shape (not the page) so they follow translated and rotated groups. -->
+    <filter id="nrh-glow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="5" result="nrh-blur"/>
+      <feMerge><feMergeNode in="nrh-blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nrh-glow-line" x="-5%" y="-900%" width="110%" height="1900%">
+      <feGaussianBlur stdDeviation="4" result="nrh-blur-l"/>
+      <feMerge><feMergeNode in="nrh-blur-l"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nrh-glow-dot" x="-400%" y="-400%" width="900%" height="900%">
+      <feGaussianBlur stdDeviation="2.5" result="nrh-blur-d"/>
+      <feMerge><feMergeNode in="nrh-blur-d"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#nrh-clip)">
+
+    <!-- ============ STATIC COMPOSITION (always visible) ============ -->
+    <rect width="1200" height="380" fill="url(#nrh-bg)"/>
+    <rect width="1200" height="380" fill="url(#nrh-grid)" mask="url(#nrh-gridmask)"/>
+    <circle cx="340" cy="300" r="260" fill="url(#nrh-halo)"/>
+    <circle cx="1000" cy="190" r="200" fill="url(#nrh-halo)" opacity="0.7"/>
+
+    <!-- corner marks -->
+    <g fill="none" stroke="#C77B9B" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round">
+      <path d="M22 42V22H42"/><path d="M1178 42V22H1158"/>
+      <path d="M22 338V358H42"/><path d="M1178 338V358H1158"/>
+    </g>
+
+    <!-- signal path (faint rail) -->
+    <path d="M0 322C160 290 260 350 430 318S700 268 860 306S1080 350 1200 292" fill="none" stroke="#C77B9B" stroke-opacity="0.28" stroke-width="1.5"/>
+    <circle cx="430" cy="318" r="3.5" fill="#E5B5C7" fill-opacity="0.7"/>
+    <circle cx="860" cy="306" r="3.5" fill="#E5B5C7" fill-opacity="0.7"/>
+
+    <!-- orbital geometry (static) -->
+    <g transform="translate(1000 190)">
+      <circle r="118" fill="none" stroke="#E5B5C7" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="2 8"/>
+      <ellipse rx="150" ry="54" transform="rotate(-24)" fill="none" stroke="#C77B9B" stroke-opacity="0.4" stroke-width="1.2"/>
+      <ellipse rx="150" ry="54" transform="rotate(36)" fill="none" stroke="#E5B5C7" stroke-opacity="0.24" stroke-width="1.2"/>
+      <ellipse rx="150" ry="54" transform="rotate(96)" fill="none" stroke="#C77B9B" stroke-opacity="0.3" stroke-width="1.2"/>
+      <g transform="rotate(-24)"><circle cx="150" cy="0" r="4.5" fill="#E5B5C7"/></g>
+      <g transform="rotate(36)"><circle cx="150" cy="0" r="3.5" fill="#C77B9B"/></g>
+      <g transform="rotate(96)"><circle cx="150" cy="0" r="3" fill="#E5B5C7" fill-opacity="0.8"/></g>
+      <circle r="26" fill="url(#nrh-halo)"/>
+      <circle r="7" fill="#F8F0F3" filter="url(#nrh-glow)"/>
+    </g>
+
+    <!-- text -->
+    <text class="nrh-eyebrow" x="64" y="104">SAI UNIVERSITY · B.TECH · 2027</text>
+    <text class="nrh-name" x="60" y="196">Nayana Reddy</text>
+    <rect x="64" y="220.5" width="600" height="3" rx="1.5" fill="url(#nrh-line)" filter="url(#nrh-glow-line)"/>
+    <text class="nrh-role" x="64" y="274">AI/ML Engineer  |  Software Development</text>
+
+    <!-- ============ MOTION LAYER (SMIL; hidden for reduced motion) ============ -->
+    <g class="nrh-motion">
+      <!-- drifting halo -->
+      <circle cx="260" cy="300" r="240" fill="url(#nrh-halo)" opacity="0.6">
+        <animate attributeName="cx" values="260;560;260" keyTimes="0;0.5;1" dur="22s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+
+      <!-- slow sheen across the banner -->
+      <rect width="1200" height="380" fill="url(#nrh-sheen)"/>
+
+      <!-- travelling pulse along the signal path -->
+      <path d="M0 322C160 290 260 350 430 318S700 268 860 306S1080 350 1200 292" pathLength="1000" fill="none" stroke="#E5B5C7" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="90 910" filter="url(#nrh-glow)">
+        <animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="9s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- orbits in motion -->
+      <g transform="translate(1000 190)">
+        <circle r="96" fill="none" stroke="#C77B9B" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="36 24">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
+        </circle>
+        <g transform="rotate(-24)">
+          <circle r="4.5" fill="#E5B5C7" filter="url(#nrh-glow-dot)">
+            <animateMotion dur="16s" repeatCount="indefinite" path="M150 0A150 54 0 1 1 -150 0A150 54 0 1 1 150 0Z"/>
+          </circle>
+        </g>
+        <g transform="rotate(36)">
+          <circle r="3.5" fill="#C77B9B" filter="url(#nrh-glow-dot)">
+            <animateMotion dur="22s" repeatCount="indefinite" path="M150 0A150 54 0 1 0 -150 0A150 54 0 1 0 150 0Z"/>
+          </circle>
+        </g>
+        <g transform="rotate(96)">
+          <circle r="3" fill="#E5B5C7" fill-opacity="0.85">
+            <animateMotion dur="30s" repeatCount="indefinite" path="M150 0A150 54 0 1 1 -150 0A150 54 0 1 1 150 0Z"/>
+          </circle>
+        </g>
+        <circle r="26" fill="url(#nrh-halo)">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <!-- glint travelling along the underline -->
+      <rect x="0" y="220.5" width="90" height="3" rx="1.5" fill="url(#nrh-glint)">
+        <animateTransform attributeName="transform" type="translate" values="64 0;574 0;574 0" keyTimes="0;0.6;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
