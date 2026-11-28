@@ -152,7 +152,5 @@ Computer Vision • ML System Design
   <i>💬 Open to AI/ML, Agentic AI and Software Engineering internship opportunities.</i>
 </p>
 
-<p align="center">
-<i> Learn.Apply.Repeat.</i>
-</p>
+
 
